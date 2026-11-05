@@ -1,3 +1,6 @@
+:root{
+ --vermelho:#ff3131;
+}
 *{
     padding: 0;
     margin: 0;
@@ -5,5 +8,76 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #000000;
+}
+main{
+    font-family: "Red Hat Display", sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 35px;
+
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.texto-entrar-com{
+    font-size: 48px;
+    font-weight: 400;
+}
+.icones{
+    display: flex;
+    gap: 16px;
+   
+}
+.icones a{
+    background-color: #f3f3f3;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px #00000029;
+    transition: 0.5s;
+}
+.icones a:hover{
+    background-color: var(--vermelho);
+    color: #fff;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
+}
+.formulario input{
+   height: 40px;
+   border: none;
+   background-color: #eeeded;
+   padding: 8px;
+}
+.entrar{
+    width: 180px;
+    height: 40px;
+    background-color: var(--vermelho);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.esqueci-senha{
+    text-align: center;
+}
+.container-registrar{
+    display: flex;
+    gap: 8px;
+}
+.container-registrar a{
+    font-weight: 800;
 }
