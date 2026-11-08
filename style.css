@@ -70,14 +70,15 @@ a{
     justify-content: center;
     align-items: center;
     color: #fff;
+    align-self: center;
 }
 .esqueci-senha{
     text-align: center;
 }
-.container-registrar{
+.containerregistrar{
     display: flex;
     gap: 8px;
 }
-.container-registrar a{
+.containerregistrar a{
     font-weight: 800;
 }

@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #ff3131;
+}
+main{
+    font-family: "Red Hat Display", sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 35px;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+}
+.icones{
+    display: flex;
+    gap: 16px;
+}
+.icones a{
+    color: black;
+    background-color: #fdfdfd;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px black;
+    transition: 0.5s;
+}
+.icones a:hover{
+    background-color: var(--vermelho);
+    color: white;
+}   
+.criar-conta{
+    font-size: 48px;
+    font-weight: 400;
+}
+.usar-email{
+    font-size: 16px;
+    font-weight: 400;
+}
+.formulario-criar-conta{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
+}
+.formulario-criar-conta input{
+   height: 40px;
+   border: none;
+   background-color: #eeeded;
+   padding: 8px;
+}
+.criar-conta-botao{
+    width: 180px;
+    height: 40px;
+    border: 2px solid #fff;
+    color: var(--vermelho);
+    background-color: var(--vermelho);
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+.containerja-possui-conta{
+    display: flex;
+    gap: 8px;}
