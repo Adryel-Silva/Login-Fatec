@@ -35,7 +35,7 @@ a{
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    box-shadow: 5px 5px 10px black;
+    box-shadow: 5px 5px 10px #00000029;
     transition: 0.5s;
 }
 .icones a:hover{

@@ -82,3 +82,51 @@ a{
 .containerregistrar a{
     font-weight: 800;
 }
+
+@media (min-width: 1024px) {
+     body{
+        background-image: url(./img/cidade-chuvosa.jpg);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+     }
+    main{
+        background-color: rgba(133, 133, 133, 0.7);
+        justify-content: center;
+        width: 496px;
+        height: 640px;
+        border-radius: 50px;
+    }
+    .icones a{
+        font-size: 20px;
+        height: 60px;
+        width: 60px;
+        box-shadow: black 5px 5px 10px;
+    }
+
+    h3{
+        color: #fff;
+    }
+    p{
+        color: #fff;
+    }
+    a.esqueci-senha{
+        color: #fff;
+    }
+    .icones a{
+        transition: 0.5s;
+    }
+    .icones a:hover{
+        background-color: rgba(97, 124, 140, 1);
+        color: #fff;
+    }
+    .entrar{
+        background-color: rgba(97, 124, 140, 1);
+    }
+    .containerregistrar{
+        align-self: center;
+    }
+
+}
